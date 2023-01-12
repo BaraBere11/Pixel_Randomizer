@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
     
     @objc func didTapButton() {
-        getRandomPhoto()
+        createRandomUIImage(width: 600, height: 600)
         view.backgroundColor = colors.randomElement()
     }
     
